@@ -1,6 +1,9 @@
+import slide_1 from "../../assets/slide_1.png"
+
 const Slider = () => {
     return (
         <div className="slider">
+            <img src={slide_1} alt="slide_1"/>
             <div className="wrapper">
                 <div className="slides">
                     <div className="slide">
